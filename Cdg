@@ -1,0 +1,37 @@
+void main()
+{
+  String variavelDeTexto= "Olá meu nome é jonatha tenho 14 anos e em abril faço 15";
+  
+ print(variavelDeTexto);
+  
+
+  {
+int primeiroNumero =14;
+  int segundoNumero=15;
+  
+  if(primeiroNumero < segundoNumero)
+  {
+    print("Feliz menos 1 ano de vida ou Feliz aniversario?");
+  } else
+  {
+    print("C?!");
+  }
+    
+}
+  
+  
+  {
+    
+  double nota1 = 2.0;
+    double nota2 = 2.0;
+    
+    double media =(nota1+nota2)/2;
+    
+    
+    if(media >=2){
+      print("eu reprovei porque faltei o ano todo e tive nota $media em todas as materias");
+    }else {
+      print("Este aluno imitou o outro e tambem teve uma media de $media e tambem reprovou");
+    }
+}
+}
